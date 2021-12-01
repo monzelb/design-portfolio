@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="assets/js/pace.min.js"></script>
+    <link href="assets/css/pace.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.css">
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="vendor/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+
+    <!-- scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/app.js"></script>
+    <!-- favicon -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slideout/1.0.1/slideout.min.js"></script>
+
+
+  </head>
+  <body>
+    <div class="loader"></div>
+    <div id="contents">
+    <nav class="navbar navbar-fixed-top" >
+      <p class="bm"><span >&#60;</span><span><span>BM</span>&#62;</span></p>
+      <span id="menu-button" style="font-size:25px; color:#748bb2; cursor:pointer" onclick="openNav()">&#9776;</span>
+    </nav>
+
+    <div id="mySidenav" class="sidenav">
+      <div class="menu-div">
+        <a href="#home" class="menu-items menu-top scroll" id="house"><i class="icon fa fa-home fa-sm" ></i>
+        </a>
+        <a class="slidies scroll" href="#home">HOME</a>
+      </div>
+      <div class="menu-div">
+        <a href="#info-section" class="menu-items menu-top scroll" id="code"><i class=" icon fa fa-code" ></i>
+        </a>
+        <a href="#info-section" class="slidies scroll" id="skills">SKILLS</a>
+      </div>
+      <div class="menu-div">
+        <a href="#about" class="menu-items menu-top scroll" id="idcard"><i class="icon fa fa-id-card" ></i>
+        </a>
+        <a href="#about" class="slidies scroll" >ABOUT</a>
+      </div>
+      <div class="menu-div">
+        <a href="#bg" class="menu-items menu-top scroll" id="bolt"><i class="glyphicon glyphicon-road bolt"> </i></a>
+        <a href="#bg" class="slidies scroll" >BACKGROUND</a>
+      </div>
+      <div class="menu-div">
+        <a href="#pf" class="menu-items menu-top scroll" id="briefcase"><i class="glyphicon glyphicon-briefcase briefcase"> </i></a>
+        <a href="#pf" class="slidies scroll" >PORTFOLIO</a>
+      </div>
+      <div class="menu-div">
+        <a href="#contact" class="menu-items menu-top scroll" id="coffee"><i class="icon fa fa-coffee"> </i></a>
+        <a href="#contact" class="slidies scroll" >CONTACT</a>
+      </div>
+      <div class="connect" id="connect-id">
+        <a id="chain" class="menu-items menu-bottom"><i class="icon fa fa-chain"></i></a>
+        <div class="slidy-social" id="social">
+          <a class="social-buttons insta-button" href="https://www.instagram.com/monzelb/" target="_blank"><i class="icon-social fa fa-instagram"></i></a>
+          <a class="social-buttons li-button" href="https://www.linkedin.com/in/brett-monzel-70723990/" target="_blank"><i class="icon-social fa fa-linkedin"></i></a>
+          <a class="social-buttons gh-button" href="https://www.github.com/monzelb" target="_blank"><i class="icon-social fa fa-github"></i></a>
+
+        </div>
+      </div>
+    </div> 
+    <div class="intro" id="home">
+      <header class="header">
+        <h1 class="my-name">Brett Monzel</h1>
+        <div class="webdev text-center">
+          <span >&#123;   Software Developer </span><span>| San Francisco &#125;  </span>
+        </div>
+      </header>
+      <div class="more" id="more">
+        <a class="aboutme scroll" id="about-button" href="#info-section">More about me</a>
+        <a class="arrow fa fa-arrow-down scroll" href="#info-section"></a>
+      </div>
+    </div>
+      <div class="row">
+        <div id="info-section"> 
+          <div class="basic-info">
+            <div class="fa fa-id-card-o id-card fa-3x col-md-2 col-xs-6 text-center"></div>
+            <div class="location info-box col-md-2 col-xs-6 text-center">
+              <p><strong class="br">WORK LOCATION</strong></p>
+              <p>Bay Area, remote</p>
+            </div>
+            <div class="phone info-box col-md-2 col-xs-6 text-center">
+              <p><strong class="br">PHONE NUMBER</strong></p>
+              <p>513-827-1560</p>
+            </div>
+            <div class="work-about info-box col-md-2 col-xs-6 text-center">
+              <p><strong class="br">WORK</strong></p>
+              <p>Web Development<br> Front-End/Full-stack</p>
+            </div>
+            <div class="email info-box col-md-2 col-xs-6 text-center">
+              <p><strong class="br">EMAIL ADDRESS</strong></p>
+              <p>monzelb@gmail.com</p>
+            </div>
+          </div>
+        </div>
+
+        <div id="info-section2">
+          <div class="skills-info">
+            <p class="text-center skills-header">SKILLS</p>
+            <div class="fa fa-keyboard-o left-icons keyboard fa-3x col-md-2 col-xs-6 text-center"></div>
+            <div class=" skills skills-box col-md-2 col-xs-6 text-center">
+              <p>Object-oriented programming</p>
+              <p>Test-driven development</p>
+              <p>Agile methodology</p>
+            </div>
+            <div class=" skills skills-box col-md-2 col-xs-6 text-center">
+              <p>Relational databases</p>
+              <p>Third-party API's</p>
+              <p>RESTful web services</p>
+            </div>
+            <div class="skills skills-box col-md-2 col-xs-6 text-center">
+              <p>Responsive design</p>
+              <p>Cross-browser compatibility</p>
+              <p>Wireframing</p>
+            </div>
+            <div class="skills skills-box col-md-2 col-xs-6 text-center">
+              <p>Single-page apps</p>
+              <p>MVC Frameworks</p>
+              <p>HTTP</p>
+            </div>
+          </div>
+        </div>
+
+        <div id="info-section3">
+          <div class="skills-info">
+            <p class="text-center skills-header">TECHNOLOGIES</p>
+            <p class="fa fa-code code-left left-icons fa-3x col-md-2 col-xs-6 text-center"></p>
+            <div class=" skills tech-box col-md-2 col-xs-6 text-center">
+              <p>Javascript</p>
+              <p>Ruby on Rails</p>
+              <p>PHP</p>
+            </div>
+            <div class=" skills tech-box col-md-2 col-xs-6 text-center">
+              <p>React</p>
+              <p>PostgresQL</p>
+              <p>Node.js</p>
+            </div>
+            <div class="skills tech-box col-md-2 col-xs-6 text-center">
+              <p>HTML5</p>
+              <p>CSS3</p>
+              <p>Angular.js</p>
+            </div>
+            <div class="skills tech-box col-md-2 col-xs-6 text-center">
+              <p>Git</p>
+              <p>Photoshop</p>
+              <p>Wordpress</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-section" id="about">
+          <div class="about-header  col-xs-10 col-xs-offset-2" >
+            <p><span class="section-header">About me</span></p>
+          </div>
+          <div class="col-xs-2 fa fa-user-circle fa-3x left-icons text-center "></div>
+          <div class="col-md-8 col-xs-12 bio-container">
+            <div class="img-div col-xs-3 col-xs-3">
+              <img src="assets/images/brett-b&w.png" class=" img-me" alt="Responsive image">
+            </div>
+            <div class="col-xs-8 col-xs-offset-1 col-xs-8">
+              <p class="bio">I am a software developer who loves to create, collaborate, and build useful things. I am inspired by great ideas, user-centered design, and efficient code, and prioritize these in my work.  <br><br> A long time practitioner of mindfulness, and former Buddhist monk, I aspire to build a compassionate, mindful, inclusive environment wherever I work.<br><br> I am a believer that the power of technology can be leveraged to create a better world.
+            </div>
+          </div>
+        </div>
+        
+        <div class="bg-section" id="bg">
+          <div class="bg-header col-xs-10 col-xs-offset-2" >
+            <p ><span class="section-header">Background</span></p>
+          </div>
+          <div class="col-xs-12 event-container">
+            <div class="col-md-2 col-md-offset-1 fa fa-book fa-3x left-icons text-center text-alert"></div>
+            <div class="col-md-7 col-md-offset-0 col-xs-8 col-xs-offset-2 event">
+              <div class="col-md-3">
+                <h4>2002-2006</h4>
+              </div>
+              <div class="col-md-9">
+              <h4>Ohio State University / University of Cincinnati</h4>
+                
+                </p>
+                <p class="">My desire to study the nature of the universe and the human mind led me to study Psychology at OSU, and later, Philosophy at UC. 
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-12 event-container">
+            <div class="col-md-2  col-md-offset-1 left-icons text-center">
+              <img id="buddha" src="assets/images/kattekrab_Sitting_Buddha_Silhouette.svg.hi.png">
+            </div>
+            <div class="col-md-7 col-md-offset-0 col-xs-8 col-xs-offset-2 event">
+              <div class="col-md-3">
+                <h4>2008-2014</h4>
+              </div>
+              <div class="col-md-9">
+              <h4>Buddhist monk</h4>
+                <p class="">In my twenties I spent a good chunk of my life in a Buddhist monastery living a traditional monastic lifestyle, practicing meditation and mindfulness, and cultivating kindness and compassion. Best thing I ever did!
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-12 event-container">
+            <div class="col-md-2 col-md-offset-1 fa fa-leaf fa-3x left-icons text-center text-alert"></div>
+            <div class="col-md-7 col-md-offset-0 col-xs-8 col-xs-offset-2 event">
+              <div class="col-md-3">
+                <h4> 2014</h4>
+              </div>
+              <div class="col-md-9">
+              <h4>Green Tiffin</h4>
+                <p class="">I helped launch this sustainable food-tech startup which serves gourmet plant-based meals in reusable containers. Being involved in a startup from its beginning taught me a lot about business operations, and piqued my interest in tech.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-12 event-container">
+            <div class="col-md-2 col-md-offset-1 fa fa-bar-chart fa-3x left-icons text-center text-alert"></div>
+            <div class="col-md-7 col-md-offset-0 col-xs-8 col-xs-offset-2 event">
+              <div class="col-md-3">
+                <h4>2016</h4>
+              </div>
+              <div class="col-md-9">
+              <h4>Non-profit management</h4>
+                <p class="">Against the Stream is an internationally recognized non-profit meditation community which offers classes in meditation, mindfulness, and addiction recovery. I had the good fortune to serve as the manager of their center in San Francisco, where I managed web content (Wordpress), email marketing campaigns (Constant Contact), social media, accounting, and community organizing.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-12 event-container">
+            <div class="col-md-2 col-md-offset-1 glyphicon glyphicon-fast-forward left-icons text-center text-alert"></div>
+            <div class="col-md-7 col-md-offset-0 col-xs-8 col-xs-offset-2 event">
+              <div class="col-md-3">
+                <h4>2017</h4>
+              </div>
+              <div class="col-md-9">
+              <h4>Bootcamp</h4>
+                <p class="">After learning software development on my own for a year and a half I realized that I wanted to plunge in deeper and signed up for General Assembly's 12 week web development bootcamp, where I learned full-stack development in Javascript and Ruby on Rails, and developed the skill of picking up languages and frameworks very rapidly.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-12 event-container">
+            <div class="col-md-2 col-md-offset-1 fa fa-child fa-3x left-icons text-center"></div>
+            <div class="col-md-7 col-md-offset-0 col-xs-8 col-xs-offset-2 event">
+              <div class="col-md-3">
+                <h4>2017</h4>
+              </div>
+              <div class="col-md-9">
+              <h4>Berkeley Public Schools Fund</h4>
+                <p class="">I worked with a team of developers building a crowd-funding app for Berkeley Public Schools, which allows teachers to apply for grants for their classes, which anyone can donate to through the app.  
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-12 event-container">
+            <div class="col-md-2 col-md-offset-1 glyphicon glyphicon-modal-window left-icons text-center text-alert"></div>
+            <div class="col-md-7 col-md-offset-0 col-xs-8 col-xs-offset-2 event">
+              <div class="col-md-3">
+                <h4>2017-present</h4>
+              </div>
+              <div class="col-md-9">
+              <h4>Agency Web Developer</h4>
+                <p class="">I help some of the top mission-driven organizations in the world develop their online presence. I built websites, applications, and oversee marketing campaigns for non-profits in the health, aid, political, environmental, and animal rights sectors.
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+  
+        
+
+
+        <div class="portfolio-section" id="pf">
+          <div class="portfolio-header  col-xs-10 col-xs-offset-2" >
+            <p ><span class="section-header">Portfolio /</span> Some of my projects</p>
+          </div>
+          <div class="col-xs-12">
+            <div class=" well portfolio-container">
+              <div class= "proj">
+                <a class="caption" href ="https://secure.projecthope.org/site/SPageNavigator/2020_08_Mainimage_t2.html" target="_blank">
+                  <div class="caption-text">                
+                    <h4>Project Hope</h4>
+                    <p>A donation page template I built for Project Hope</p>
+                    <p>Technologies used: Javascript, Luminate Online API, HTML, CSS.</p>
+                  </div>            
+                </a>
+                <img class="project-img" src="assets/images/PRH.png" alt="...">
+              </div>
+              <div class= "proj">
+                <a class="caption" href="https://monzelb.github.io/jsAsteroids/" target="_blank">
+                  <div class="caption-text">
+                    <h4 class="caption-header">Asteroids</h4>
+                    <p>A remake of the classic Atari game, created with HTML5 canvas and Javascript. </p>
+                    <p>Technologies used: HTML5, Javascript</p>
+                  </div>
+                </a>
+                <img class="project-img" src="assets/images/jsAsteroids.png" alt="...">
+              </div>
+              <div class= "proj">
+                <a class="caption" href ="https://monzelb.github.io/jsTetris/" target="_blank">
+                  <div class="caption-text">                    
+                    <h4>Javascript Tetris</h4>
+                    <p>The classic game redone and jazzed up, using only HTML, CSS and Javascript.</p>
+                    <p>Technologies used: HTML, CSS, Javascript.</p>
+                  </div>
+                </a>
+                <img class="project-img" src="assets/images/jsTetrisPortfolio.png" alt="...">
+              </div>
+              <div class= "proj ">
+                <a class="caption" href ="https://limitless-peak-88467.herokuapp.com/" target="_blank">
+                  <div class="caption-text">
+                    <h4>Alan AI Voice Recognition News App</h4>
+                    <p>Retrieve news from various sources by speaking to this app. Built with Alan AI's voice recognition technology, and newsapi.org's API.</p>
+                    <p>Technologies used: React, Alan AI API, Material UI, HTML, CSS</p>
+                  </div>
+                </a>
+                <img class="project-img " src="assets/images/AlanAiPorfolioPic.jpg" alt="...">
+              </div>
+
+              <div class= "proj">
+                <a class="caption" href ="https://secure.everyaction.com/twBktmJT4E2vu-ELxGEWsg2" target="_blank">
+                  <div class="caption-text">                
+                    <h4>World Animal Protection</h4>
+                    <p>A donation page template I built for World Animal Protection. </p>
+                    <p>Technologies used: Javascript, EveryAction/NGP Van, HTML, CSS </p>
+                  </div>
+                </a>
+                <img class="project-img" src="assets/images/WAP.jpg" alt="...">
+              </div>
+              <div class= "proj">
+                <a class="caption" href ="https://secure-lowlands-82773.herokuapp.com/" target="_blank">
+                  <div class="caption-text">                  
+                    <h4>Github User Search</h4>
+                    <p>Find the followers of any Github User!</p>
+                    <p>Technologies used: Javascript, Github API, Ruby on Rails.</p>
+                  </div>
+                </a>
+                <img class="project-img" src="assets/images/github-search.png" alt="...">
+              </div>
+              
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-section" id="contact">
+          <div class="contact-header" >
+            <p><span class="section-header">Contact</span> <!--<span class="contact-sub">&nbsp;</span>--></p>
+          </div>
+          <div class="email-me">
+            <div>
+               <a class="email-button" href="mailto:monzelb@gmail.com">EMAIL ME</a>
+             </div>
+          </div>
+        </div>
+
+      </div>
+      <footer class="footer">
+        <p>&#169; Brett Monzel 2020</p>
+
+      </footer>
+      </div>
+
+
+
+
+
+
+
+  </body>
